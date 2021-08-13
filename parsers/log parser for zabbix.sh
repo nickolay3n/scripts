@@ -38,6 +38,7 @@ cat /home/user/kav-download/0000000000000092.stat-hw | sed -n "s|IPAddress=|IP;|
 
 # быстрый парсинг с помощью SED -n - выводит только заменяемые строки; s - substitute; p - print; несколько выражений через ;
 cat /home/user/kav-download/0000000000000092.stat-hw | sed -n "\
+s|IPAddress=not assigned;||p; \
 s|Server-Name=|hostname;|p; \
 s/IPAddress=/IP;/p \
-";
+" | sed '/^[[:space:]]*$/d' #убираем пустые строки
