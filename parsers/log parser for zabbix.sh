@@ -35,3 +35,9 @@ echo "hostname;$(get_field_name "aram group=CPU]" "us=" )"
 echo "Network-Adapter;$(get_field_name  "Network-Adapter" "IPAddress")"
 cat /home/user/kav-download/0000000000000092.stat-hw | sed -n "s/IPAddress=/IP;/p";
 cat /home/user/kav-download/0000000000000092.stat-hw | sed -n "s|IPAddress=|IP;|p";
+
+# быстрый парсинг с помощью SED -n - выводит только заменяемые строки; s - substitute; p - print; несколько выражений через ;
+cat /home/user/kav-download/0000000000000092.stat-hw | sed -n "\
+s|Server-Name=|hostname;|p; \
+s/IPAddress=/IP;/p \
+";
