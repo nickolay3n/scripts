@@ -4,7 +4,7 @@
 
 + [kav/kav_download.sh](https://github.com/nickolay3n/bash/blob/main/kav/kav_download.sh) download files for crontab linux
 + [kav/unzip kave.zip.cmd](https://github.com/nickolay3n/bash/blob/main/kav/unzip%20kave.zip.cmd) unzip files for windows
-+ [PingToIP.sh] Extract IP from `ping site.com` command - very usefull!
++ [PingToIP.sh](https://github.com/nickolay3n/bash/blob/main/PingToIP.sh) Extract IP from `ping site.com` command - very usefull!
 
 
 ## Questions
