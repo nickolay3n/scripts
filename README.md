@@ -1,7 +1,3 @@
-# bash
-bash scripts
-
-
 # Here I'll store my Bash Scripts
 
 ## kav
