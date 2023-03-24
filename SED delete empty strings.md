@@ -27,3 +27,6 @@ s|AdapterStatus=|AdapterStatus;|p; \
 s|CPU1 Status=|CPU1Status;|p; \
 s|CPU2 Status=|CPU2Status;|p; \
 s|DISK[.+]=|DISK[.+];|p \
+"
+
+# будет дополняться
