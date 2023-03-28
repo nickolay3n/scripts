@@ -29,22 +29,8 @@ s|CPU2 Status=|CPU2Status;|p; \
 s|DISK[.+]=|DISK[.+];|p \
 "
 # подстановка глобальных переменных (например из докера)
-sed -i '-s|%OWNER%|'"$OWNER"'|g' /vaw/www/html/index.html
-cat index.html
-<html><body><h1>%OWNER%</h1></body></html>
+`sed -i '-s|%OWNER%|'"$OWNER"'|g' /vaw/www/html/index.html`
+`cat index.html`
+`<html><body><h1>%OWNER%</h1></body></html>`
 
 # будет дополняться
-
-> [!NOTE ааааааааааа]
-> Information the user should notice even if skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
