@@ -10,7 +10,7 @@
 + [kav/unzip kave.zip.cmd](https://github.com/nickolay3n/scripts/blob/main/kav/unzip%20kave.zip.cmd) unzip files for windows
 + [PingToIP.sh](https://github.com/nickolay3n/scripts/blob/main/bash/PingToIP.sh) Extract IP from `ping site.com` command - very usefull!
 
-## pyth
+## [pyth](https://github.com/nickolay3n/scripts/tree/main/pyth/)
 
 + [pyth/XMLtoJSON.py](https://github.com/nickolay3n/scripts/blob/main/pyth/XMLtoJSON.py) XML parser to Json
 
