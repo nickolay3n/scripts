@@ -35,7 +35,7 @@ cat index.html
 
 # будет дополняться
 
-> [!NOTE]
+> [!NOTE ааааааааааа]
 > Information the user should notice even if skimming.
 
 > [!TIP]
