@@ -28,5 +28,9 @@ s|CPU1 Status=|CPU1Status;|p; \
 s|CPU2 Status=|CPU2Status;|p; \
 s|DISK[.+]=|DISK[.+];|p \
 "
+# подстановка глобальных переменных (например из докера)
+sed -i '-s|%OWNER%|'"$OWNER"'|g' /vaw/www/html/index.html
+cat index.html
+<html><body><h1>%OWNER%</h1></body></html>
 
 # будет дополняться
