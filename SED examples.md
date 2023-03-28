@@ -8,9 +8,12 @@
 Where:
 
 `^` start of line
+
 `\s*` zero or more whitespace characters
+
 #one hash mark
-`\([^!]\|$\) followed by a character which is not ! or end of line.`
+
+`\([^!]\|$\)` followed by a character which is not ! or end of line.
 
 # замена куча всякой дряни
 `sed -n "\
