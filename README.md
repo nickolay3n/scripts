@@ -1,4 +1,11 @@
-# Here I'll store my Bash & python Scripts
+# Here I'll store my Bash & python & windows Scripts
+
+## [windows/](https://github.com/nickolay3n/scripts/tree/main/windows/) windows sripts
+
++ 1
++ 2
+
+
 
 ## kav
 
